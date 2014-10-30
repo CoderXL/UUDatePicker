@@ -1,4 +1,4 @@
-UUDatePicker have four style to select:
+UUDatePicker's delegateUUDatePicker have four style to select:
 -
 
     UUDateStyle_YearMonthDayHourMinute,
@@ -25,7 +25,7 @@ and you need to add it's delegate method or used by block:
 - (id)initWithframe:(CGRect)frame Delegate:(id<UUDatePickerDelegate>)delegate PickerStyle:(DateStyle)uuDateStyle;
 
 
- - (void)uuDatePicker:(UUDatePicker *)datePicker
+- (void)uuDatePicker:(UUDatePicker *)datePicker
                 year:(NSString *)year
                month:(NSString *)month
                  day:(NSString *)day
