@@ -93,7 +93,7 @@
                                                      PickerStyle:UUDateStyle_YearMonthDayHourMinute];
     datePicker.ScrollToDate = now;
     datePicker.maxLimitDate = now;
-    datePicker.minLimitDate = [now dateByAddingTimeInterval:-1110000];
+    datePicker.minLimitDate = [now dateByAddingTimeInterval:-1111111];
     SpecifiedTime.inputView = datePicker;
     
 }
