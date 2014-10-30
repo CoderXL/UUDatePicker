@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7019EB21A02296F00236624 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7019EB11A02296F00236624 /* main.m */; };
+		B7019EB51A02296F00236624 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7019EB41A02296F00236624 /* AppDelegate.m */; };
+		B7019EB81A02296F00236624 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7019EB71A02296F00236624 /* ViewController.m */; };
+		B7019EBB1A02296F00236624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7019EB91A02296F00236624 /* Main.storyboard */; };
+		B7019EBD1A02296F00236624 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7019EBC1A02296F00236624 /* Images.xcassets */; };
+		B7019EC01A02296F00236624 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7019EBE1A02296F00236624 /* LaunchScreen.xib */; };
+		B7019ECC1A02296F00236624 /* UUDatePikcer_Max_MinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7019ECB1A02296F00236624 /* UUDatePikcer_Max_MinTests.m */; };
+		B7019EDA1A022A9200236624 /* UUDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B7019ED71A022A9200236624 /* UUDatePicker.m */; };
+		B7019EDB1A022A9200236624 /* UUDatePicker_DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7019ED91A022A9200236624 /* UUDatePicker_DateModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7019EC61A02296F00236624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7019EA41A02296F00236624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7019EAB1A02296F00236624;
+			remoteInfo = UUDatePikcer_Max_Min;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7019EAC1A02296F00236624 /* UUDatePikcer_Max_Min.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UUDatePikcer_Max_Min.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7019EB01A02296F00236624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7019EB11A02296F00236624 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7019EB31A02296F00236624 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7019EB41A02296F00236624 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7019EB61A02296F00236624 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7019EB71A02296F00236624 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7019EBA1A02296F00236624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7019EBC1A02296F00236624 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7019EBF1A02296F00236624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B7019EC51A02296F00236624 /* UUDatePikcer_Max_MinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UUDatePikcer_Max_MinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7019ECA1A02296F00236624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7019ECB1A02296F00236624 /* UUDatePikcer_Max_MinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUDatePikcer_Max_MinTests.m; sourceTree = "<group>"; };
+		B7019ED61A022A9200236624 /* UUDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUDatePicker.h; sourceTree = "<group>"; };
+		B7019ED71A022A9200236624 /* UUDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUDatePicker.m; sourceTree = "<group>"; };
+		B7019ED81A022A9200236624 /* UUDatePicker_DateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUDatePicker_DateModel.h; sourceTree = "<group>"; };
+		B7019ED91A022A9200236624 /* UUDatePicker_DateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUDatePicker_DateModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7019EA91A02296F00236624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7019EC21A02296F00236624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7019EA31A02296F00236624 = {
+			isa = PBXGroup;
+			children = (
+				B7019ED51A022A9200236624 /* UUDatePicker_Block */,
+				B7019EAE1A02296F00236624 /* UUDatePikcer_Max_Min */,
+				B7019EC81A02296F00236624 /* UUDatePikcer_Max_MinTests */,
+				B7019EAD1A02296F00236624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7019EAD1A02296F00236624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7019EAC1A02296F00236624 /* UUDatePikcer_Max_Min.app */,
+				B7019EC51A02296F00236624 /* UUDatePikcer_Max_MinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7019EAE1A02296F00236624 /* UUDatePikcer_Max_Min */ = {
+			isa = PBXGroup;
+			children = (
+				B7019EB31A02296F00236624 /* AppDelegate.h */,
+				B7019EB41A02296F00236624 /* AppDelegate.m */,
+				B7019EB61A02296F00236624 /* ViewController.h */,
+				B7019EB71A02296F00236624 /* ViewController.m */,
+				B7019EB91A02296F00236624 /* Main.storyboard */,
+				B7019EBC1A02296F00236624 /* Images.xcassets */,
+				B7019EBE1A02296F00236624 /* LaunchScreen.xib */,
+				B7019EAF1A02296F00236624 /* Supporting Files */,
+			);
+			path = UUDatePikcer_Max_Min;
+			sourceTree = "<group>";
+		};
+		B7019EAF1A02296F00236624 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7019EB01A02296F00236624 /* Info.plist */,
+				B7019EB11A02296F00236624 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7019EC81A02296F00236624 /* UUDatePikcer_Max_MinTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7019ECB1A02296F00236624 /* UUDatePikcer_Max_MinTests.m */,
+				B7019EC91A02296F00236624 /* Supporting Files */,
+			);
+			path = UUDatePikcer_Max_MinTests;
+			sourceTree = "<group>";
+		};
+		B7019EC91A02296F00236624 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7019ECA1A02296F00236624 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7019ED51A022A9200236624 /* UUDatePicker_Block */ = {
+			isa = PBXGroup;
+			children = (
+				B7019ED61A022A9200236624 /* UUDatePicker.h */,
+				B7019ED71A022A9200236624 /* UUDatePicker.m */,
+				B7019ED81A022A9200236624 /* UUDatePicker_DateModel.h */,
+				B7019ED91A022A9200236624 /* UUDatePicker_DateModel.m */,
+			);
+			path = UUDatePicker_Block;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7019EAB1A02296F00236624 /* UUDatePikcer_Max_Min */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7019ECF1A02296F00236624 /* Build configuration list for PBXNativeTarget "UUDatePikcer_Max_Min" */;
+			buildPhases = (
+				B7019EA81A02296F00236624 /* Sources */,
+				B7019EA91A02296F00236624 /* Frameworks */,
+				B7019EAA1A02296F00236624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UUDatePikcer_Max_Min;
+			productName = UUDatePikcer_Max_Min;
+			productReference = B7019EAC1A02296F00236624 /* UUDatePikcer_Max_Min.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7019EC41A02296F00236624 /* UUDatePikcer_Max_MinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7019ED21A02296F00236624 /* Build configuration list for PBXNativeTarget "UUDatePikcer_Max_MinTests" */;
+			buildPhases = (
+				B7019EC11A02296F00236624 /* Sources */,
+				B7019EC21A02296F00236624 /* Frameworks */,
+				B7019EC31A02296F00236624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7019EC71A02296F00236624 /* PBXTargetDependency */,
+			);
+			name = UUDatePikcer_Max_MinTests;
+			productName = UUDatePikcer_Max_MinTests;
+			productReference = B7019EC51A02296F00236624 /* UUDatePikcer_Max_MinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7019EA41A02296F00236624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = uyiuyao;
+				TargetAttributes = {
+					B7019EAB1A02296F00236624 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					B7019EC41A02296F00236624 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = B7019EAB1A02296F00236624;
+					};
+				};
+			};
+			buildConfigurationList = B7019EA71A02296F00236624 /* Build configuration list for PBXProject "UUDatePikcer_Max_Min" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7019EA31A02296F00236624;
+			productRefGroup = B7019EAD1A02296F00236624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7019EAB1A02296F00236624 /* UUDatePikcer_Max_Min */,
+				B7019EC41A02296F00236624 /* UUDatePikcer_Max_MinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7019EAA1A02296F00236624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7019EBB1A02296F00236624 /* Main.storyboard in Resources */,
+				B7019EC01A02296F00236624 /* LaunchScreen.xib in Resources */,
+				B7019EBD1A02296F00236624 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7019EC31A02296F00236624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7019EA81A02296F00236624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7019EB81A02296F00236624 /* ViewController.m in Sources */,
+				B7019EB51A02296F00236624 /* AppDelegate.m in Sources */,
+				B7019EDB1A022A9200236624 /* UUDatePicker_DateModel.m in Sources */,
+				B7019EB21A02296F00236624 /* main.m in Sources */,
+				B7019EDA1A022A9200236624 /* UUDatePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7019EC11A02296F00236624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7019ECC1A02296F00236624 /* UUDatePikcer_Max_MinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7019EC71A02296F00236624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7019EAB1A02296F00236624 /* UUDatePikcer_Max_Min */;
+			targetProxy = B7019EC61A02296F00236624 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7019EB91A02296F00236624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7019EBA1A02296F00236624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7019EBE1A02296F00236624 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7019EBF1A02296F00236624 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7019ECD1A02296F00236624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7019ECE1A02296F00236624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7019ED01A02296F00236624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UUDatePikcer_Max_Min/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7019ED11A02296F00236624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UUDatePikcer_Max_Min/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7019ED31A02296F00236624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UUDatePikcer_Max_MinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UUDatePikcer_Max_Min.app/UUDatePikcer_Max_Min";
+			};
+			name = Debug;
+		};
+		B7019ED41A02296F00236624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UUDatePikcer_Max_MinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UUDatePikcer_Max_Min.app/UUDatePikcer_Max_Min";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7019EA71A02296F00236624 /* Build configuration list for PBXProject "UUDatePikcer_Max_Min" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7019ECD1A02296F00236624 /* Debug */,
+				B7019ECE1A02296F00236624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7019ECF1A02296F00236624 /* Build configuration list for PBXNativeTarget "UUDatePikcer_Max_Min" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7019ED01A02296F00236624 /* Debug */,
+				B7019ED11A02296F00236624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7019ED21A02296F00236624 /* Build configuration list for PBXNativeTarget "UUDatePikcer_Max_MinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7019ED31A02296F00236624 /* Debug */,
+				B7019ED41A02296F00236624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7019EA41A02296F00236624 /* Project object */;
+}
