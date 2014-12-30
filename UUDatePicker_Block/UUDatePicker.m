@@ -16,7 +16,7 @@
 #define UUPICKER_HOUR 24
 #define UUPICKER_MINUTE 60
 
-#define UU_GRAY [[UIColor redColor] colorWithAlphaComponent:0.5];
+#define UU_GRAY [UIColor redColor];
 #define UU_BLACK [UIColor blackColor];
 
 #ifndef isIOS7

@@ -78,7 +78,7 @@
                                      }
                                  }];
         if (field == Max) {
-            datePicker.maxLimitDate = now;
+            datePicker.maxLimitDate = [now dateByAddingTimeInterval:2222];
         }
         else if (field == Min){
             datePicker.minLimitDate = [[NSDate date]dateByAddingTimeInterval:-2222];
@@ -93,7 +93,7 @@
                                                      PickerStyle:UUDateStyle_YearMonthDayHourMinute];
     datePicker.ScrollToDate = now;
     datePicker.maxLimitDate = now;
-    datePicker.minLimitDate = [now dateByAddingTimeInterval:-1111111];
+    datePicker.minLimitDate = [now dateByAddingTimeInterval:-111111111];
     SpecifiedTime.inputView = datePicker;
     
 }
