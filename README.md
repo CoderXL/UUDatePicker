@@ -1,3 +1,8 @@
+UUDatePicker
+===============
+
+![Flipboard playing multiple GIFs](https://github.com/ZhipingYang/UUDatePicker/raw/master/UUDatePikcer_Max_MinTests/datePicker.gif)
+
 UUDatePicker's delegateUUDatePicker have four style to select:
 -
 
