@@ -3,17 +3,17 @@ UUDatePicker
 
 ![Flipboard playing multiple GIFs](https://github.com/ZhipingYang/UUDatePicker/raw/master/UUDatePikcer_Max_MinTests/datePicker.gif)
 
-UUDatePicker's delegateUUDatePicker have four style to select:
--
+####UUDatePicker's delegateUUDatePicker have four style to select:
+
 
     UUDateStyle_YearMonthDayHourMinute,
     UUDateStyle_YearMonthDay,
     UUDateStyle_MonthDayHourMinute,
     UUDateStyle_HourMinute
 
-and you need to add it's delegate method or used by block:
--
-- (id)initWithframe:(CGRect)frame PickerStyle:(DateStyle)uuDateStyle didSelected:(FinishBlock)finishBlock;
+####and you need to add it's delegate method or used by block:
+
+    - (id)initWithframe:(CGRect)frame PickerStyle:(DateStyle)uuDateStyle didSelected:(FinishBlock)finishBlock;
         
         UUDatePicker *datePicker= [[UUDatePicker alloc]initWithframe:CGRectMake(0, 0, 320, 200)
                                  PickerStyle:a[i]
@@ -26,11 +26,11 @@ and you need to add it's delegate method or used by block:
                                      //nslog
                                  }];
 
-#pragma mark - UUDatePicker's delegate
-- (id)initWithframe:(CGRect)frame Delegate:(id<UUDatePickerDelegate>)delegate PickerStyle:(DateStyle)uuDateStyle;
+###pUUDatePicker's delegate
+    - (id)initWithframe:(CGRect)frame Delegate:(id<UUDatePickerDelegate>)delegate PickerStyle:(DateStyle)uuDateStyle;
 
 
-- (void)uuDatePicker:(UUDatePicker *)datePicker
+    - (void)uuDatePicker:(UUDatePicker *)datePicker
                 year:(NSString *)year
                month:(NSString *)month
                  day:(NSString *)day
@@ -38,8 +38,8 @@ and you need to add it's delegate method or used by block:
               minute:(NSString *)minute
              weekDay:(NSString *)weekDay
 
-if you want to choose datePikcer's range or make picker scroll to specified time, you can do like this:
--
+####if you want to choose datePikcer's range or make picker scroll to specified time, you can do like this:
+
 
     UUDatePicker *datePicker= [[UUDatePicker alloc]initWithframe:CGRectMake(0, 0, 320, 200)
                                                         Delegate:self
@@ -57,5 +57,5 @@ if you want to choose datePikcer's range or make picker scroll to specified time
     
     textfield.inputView = datePicker;
 
-anyway, the code still has many deficiencies need your participation to make it perfect. 
--
+####anyway, the code still has many deficiencies need your participation to make it perfect. 
+
