@@ -343,7 +343,7 @@
                 if (dayArray.count-1<dayIndex) {
                     dayIndex = dayArray.count-1;
                 }
-                [pickerView reloadComponent:2];
+//                [pickerView reloadComponent:2];
                 
             }
         }
@@ -366,7 +366,7 @@
                 if (dayArray.count-1<dayIndex) {
                     dayIndex = dayArray.count-1;
                 }
-                [pickerView reloadComponent:2];
+//                [pickerView reloadComponent:2];
             }
         }
             break;
@@ -384,12 +384,12 @@
             }
             if (component == 0) {
                 monthIndex = row;
-                [self DaysfromYear:[yearArray[yearIndex] integerValue] andMonth:[monthArray[monthIndex] integerValue]];
                 if (dayArray.count-1<dayIndex) {
                     dayIndex = dayArray.count-1;
                 }
-                [pickerView reloadComponent:1];
+//                [pickerView reloadComponent:1];
             }
+                [self DaysfromYear:[yearArray[yearIndex] integerValue] andMonth:[monthArray[monthIndex] integerValue]];
 
         }
             break;
