@@ -3,8 +3,7 @@ UUDatePicker
 
 ![Flipboard playing multiple GIFs](https://github.com/ZhipingYang/UUDatePicker/raw/master/UUDatePikcer_Max_MinTests/datePicker.gif)
 
-####UUDatePicker's delegateUUDatePicker have four style to select:
-
+####UUDatePicker have four style to select:
 
     UUDateStyle_YearMonthDayHourMinute,
     UUDateStyle_YearMonthDay,
@@ -26,7 +25,8 @@ UUDatePicker
                                      //nslog
                                  }];
 
-###pUUDatePicker's delegate
+###UUDatePicker's delegate
+
     - (id)initWithframe:(CGRect)frame Delegate:(id<UUDatePickerDelegate>)delegate PickerStyle:(DateStyle)uuDateStyle;
 
 
@@ -40,21 +40,16 @@ UUDatePicker
 
 ####if you want to choose datePikcer's range or make picker scroll to specified time, you can do like this:
 
-
     UUDatePicker *datePicker= [[UUDatePicker alloc]initWithframe:CGRectMake(0, 0, 320, 200)
                                                         Delegate:self
                                                      PickerStyle:UUDateStyle_YearMonthDayHourMinute];
     NSDate *now = [NSDate date];
-    
     //scroll to specified time
     datePicker.ScrollToDate = now;
-    
     //select the max limit time
     datePicker.maxLimitDate = now;
-    
     //select the max limit time
     datePicker.minLimitDate = [now dateByAddingTimeInterval:-1110000];
-    
     textfield.inputView = datePicker;
 
 ####anyway, the code still has many deficiencies need your participation to make it perfect. 
